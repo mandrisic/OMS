@@ -1,0 +1,27 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif, bold;
+    font-size-adjust: initial;
+    font-size: 10rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(5, 102, 134);
+}
+body {
+    text-align: center;
+    margin-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-image: url(../camel.jpg);
+    background-size: 1400px;
+    color: rgb(14, 14, 14);
+    opacity: 90%;
+}
+
+section {
+    text-align: center;
+    float: initial;
+    margin-left: 450px;
+    margin-top: 80px;
+    font-size: 2rem;
+}

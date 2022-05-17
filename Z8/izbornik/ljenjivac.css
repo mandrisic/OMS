@@ -1,0 +1,65 @@
+section {
+    display: grid;
+    grid-template-areas: 
+    "h h h h h h"
+    "a a a a a a"
+    "b b c c d d"
+    "e e f f g g";
+    row-gap: 4rem;
+    column-gap: 4rem;
+    padding: 4rem;
+    margin: 2rem;
+    border: 1px rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+    background-image: url(../slike/mačke/orange.jpg);
+
+}
+hr {
+    color: white;
+    width: 600px;
+    opacity: 100%;
+}
+.h{grid-area: h;}
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}
+.e{grid-area: e;}
+.f{grid-area: f;}
+.g{grid-area: g;}
+
+.b {
+    outline: 2px solid rgba(255,255,255,0.74);
+    outline-offset: 19px;
+}
+.c {
+    outline: 2px solid rgba(255,255,255,0.74);
+    outline-offset: 19px;
+}
+.d {
+    outline: 2px solid rgba(255,255,255,0.74);
+    outline-offset: 19px;
+}
+.e {
+    outline: 2px solid rgba(255,255,255,0.74);
+    outline-offset: 19px;
+}
+.f {
+    outline: 2px solid rgba(255,255,255,0.74);
+    outline-offset: 19px;
+}
+.g {
+    outline: 2px solid rgba(255,255,255,0.74);
+    outline-offset: 19px;
+}
+.h {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 0px rgb(204, 139, 19), 10px 11px 2px rgba(151, 113, 6, 0.28);
+}
+.a {
+    margin-left: 350px;
+}
