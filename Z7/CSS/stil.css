@@ -1,0 +1,43 @@
+    
+h1 {
+    font-size: 5rem;
+    color: transparent;
+    text-align: center;
+}
+body {
+    background-image: url(../slike/os11.jpg);
+     background-size: 1380px; 
+     font-size: medium;
+}
+@font-face {
+    font-family: Morganite-ExtraLight;
+    src: url(../font/Morganite-ExtraLight.ttf);
+    
+}
+ul li{
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+ul li a{
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid white;  
+   
+}
+
+@media (max-width: 1140px){
+ body {
+    background-image: url(../slike/os1.jpg);
+
+ }
+ h1 {
+     color: white;
+ }
+}

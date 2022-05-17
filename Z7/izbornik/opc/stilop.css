@@ -1,0 +1,45 @@
+ul li{
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+ul li a{
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    
+   
+}
+h1 {
+    font-style: oblique;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3em;
+}
+body {
+    background-color: rgb(97, 106, 153);
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* MOBILE FIRST */
+section {
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}

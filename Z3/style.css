@@ -1,0 +1,98 @@
+kbd {
+    background-color: black;
+    border-radius: 3px;
+    border: 1px solid blanchedalmond;
+    color: rgba(155, 18, 132, 0.753);
+}
+
+span {
+    align-content: center;
+}
+.nepar{
+    letter-spacing: 0.3rem;
+}
+.par{
+    text-align: justify;
+    columns: 2;
+}
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    list-style-type: lower-latin;
+    text-decoration: rgb(229, 243, 148);
+    font-size: 1.2rem;
+    text-align: left;
+}
+time {
+    text-align: right;
+}
+mark{
+    color: rgb(213, 214, 206);
+    background-color: black;
+    transition: all 5s ease;
+}
+@keyframes bounceIn{
+    0%{
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+body > small{
+    animation: bounceIn 5s;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blanchedalmond;
+    letter-spacing: 0.5em;
+    text-align: center;
+    position: sticky;
+    margin-top: 3rem;
+
+}
+header{
+    align-content: stretch;
+    position: static;
+    background-image: url(mim2.png);
+    background-size: 40rem;;
+
+}
+section{
+    position: sticky;
+    text-align: right;
+    font-family: cursive;
+}
+p{
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+body {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blanchedalmond;
+    
+}
+cite{
+    font-family: monospace;
+    color: blanchedalmond;
+    position: sticky;
+    text-align: right;
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('chrome-extension://__MSG_@@extension_id__/common/ui/fonts/roboto/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+}

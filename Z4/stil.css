@@ -1,0 +1,108 @@
+section {
+  display: grid;
+  grid-template-areas:
+    "......      zaglavlje      zaglavlje      ....."
+    "lijevo      tijelo         tijelo         desno"
+    "lijevo1     tijelo1        tijelo1        desno1"
+    "tijelo2     tijelo2        tijelo3        tijelo3"
+    "podnozje    podnozje       podnozje       podnozje";
+  grid-gap: 2rem;
+}
+.lijevo {
+  grid-area: lijevo;
+}
+.lijevo1 {
+  grid-area: lijevo1;
+}
+.desno {
+  grid-area: desno;
+}
+.desno1 {
+  grid-area: desno1;
+}
+.tijelo {
+  grid-area: tijelo;
+}
+.tijelo1 {
+  grid-area: tijelo1;
+}
+.tijelo2 {
+  grid-area: tijelo2;
+}
+.tijelo3 {
+  grid-area: tijelo3;
+}
+
+.zaglavlje {
+  grid-area: zaglavlje;
+}
+.podnozje {
+  grid-area: podnozje;
+}
+.podrucje {
+  background-color: rgb(213, 247, 179);
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.zaglavlje,
+.podnozje,
+.desno {
+  background-color: rgb(208, 144, 238);
+  font-size: 1rem;
+}
+.desno1 {
+  font-size: 1rem;
+  background-color: rgb(187, 236, 236);
+}
+.lijevo {
+  font-size: 1rem;
+}
+.lijevo1 {
+  font-size: 1rem;
+  background-color: rgb(248, 171, 214);
+}
+p {
+  color: black;
+}
+
+.zaglavlje {
+  text-align: center;
+  background-color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-size: 3rem;
+  margin-bottom: 0rem;
+}
+h3 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  margin-top: 3px;
+}
+.tijelo {
+  font-size: 1rem;
+  background-color: rgb(159, 225, 252);
+}
+.tijelo1 {
+  font-size: 1rem;
+  background-color: rgb(235, 235, 184);
+  caption-side: top;
+}
+.tijelo2 {
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: white;
+  caption-side: top;
+}
+.tijelo3 {
+  background-color: white;
+}
+.podnozje {
+  font-size: 1rem;
+  background-color: wheat;
+  text-align: center;
+}
+table {
+  border-spacing: 0.3rem;
+}

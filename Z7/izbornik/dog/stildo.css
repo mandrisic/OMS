@@ -1,0 +1,71 @@
+ul li{
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+ul li a{
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    
+    
+   
+}
+body {
+    background-image: url(../../slike/os3.jpg);
+}
+h1 {
+    font-family: oblique;
+    text-align: center;
+    color: cornsilk;
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+/* MOBILE FIRST */
+article {
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b";
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.a{grid-area: podrucje a;}
+.b{grid-area: podrucje b;}
+
+article {
+    display: grid;
+    grid-template-areas: 
+    "a     b";
+    row-gap: 3rem;
+    column-gap: 2rem;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+    background-color: rgb(200, 200, 207);
+    opacity: 100%;
+    color: black;
+    text-align: center;
+}
+
+.a { grid-area: podrucje a;}
+.b {grid-area: podrucje b;}
+
+.a {
+    opacity: 100%;
+}
+
+img {
+    max-width: 300px;
+}

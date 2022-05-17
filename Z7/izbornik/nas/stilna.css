@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(210, 147, 247);
+    
+}
+h1 {
+        font-style: oblique;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 10px;
+}
+ul li{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+h5 {
+    color: transparent;
+}
+ul li a{
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;  
+   
+}
+
+section {
+    display: grid;
+    grid-template-areas: 
+    "a a a a"
+    "b b c c";
+    row-gap: 1rem;
+    column-gap: 2rem;
+    padding: 2rem;
+    margin: 0rem;
+    border: 1px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+}
+/* MOBILE FIRST */
+section {
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b b"
+    "c c";
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+@media (max-width: 1000px) {
+    section {
+        display: grid;
+        grid-template-areas: 
+        "a a"
+        "b b"
+        "c c";
+    }
+}
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+
+@media (min-width: 1281px){
+
+    section {
+        display: grid;
+        grid-template-areas: 
+        "a a a a"
+        "b b c c";
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+}
+div{
+    background-color: lightblue;
+    padding: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+
+@media (min-width: 1281px){
+
+    div{
+        color: rgb(146, 46, 101);
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    div{
+        color: rgb(206, 46, 121);
+    }
+}
+
+pre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.a{
+    grid-area: a;
+    background-color:transparent;
+    border: 0ch;
+    object-fit: cover; 
+     
+}
+
+.b{
+    grid-area: b;
+    background-color: transparent;
+    object-fit: cover;  
+}
+
+.c{
+    grid-area: c;
+    background-color: transparent;
+    object-fit: cover;
+}

@@ -1,0 +1,52 @@
+body{
+    background-clip: content-box;
+}
+header{
+    min-height: 100px;
+    font-style: oblique;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+aside{
+    width: 80rem;
+    padding: 0 0 0 .5rem; /* top right bottom left */
+    margin: 0 0 0 .5rem; /* top right bottom left */
+    box-shadow: inset 5px 0 5px -5px #449bc7;
+    color: aliceblue;
+    opacity: 0.75;
+}
+aside > p{
+    margin: 2rem; /* svi imaju 2rem*/
+}
+.popis{
+    outline: rgb(22, 106, 155);
+    overflow: scroll;
+    min-height: 20px;
+    max-height: 80px;
+    max-width: 300px;
+    float: right;
+    padding-right: 0.5rem;
+    position: static;
+}
+section{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+hgroup{
+    padding-right: 16px;
+    border-left: 10px solid #93d5f7;
+}
+footer{
+    position: static;
+    float: left;
+    background-color: beige;
+}
+img{
+    max-width: 100px;
+}
